@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     {{- partial "head.html" . -}}
-    <body>
-        {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
+    <body class="font-Inter bg-portfolio-bg-lighter-gray text-portfolio-text-light-gray">
+
+        <div id="popup"></div>
+        <div id="normal">
+            {{ if eq .Params.Title  "Password"}}
+            {{- block "fullpage" .}}{{- end}}
+            {{ else}}
+            {{- partial "header.html" . -}}
+                <main class="min-h-full">
+                    {{- block "main" .}}{{- end}}
+                </main>
+                {{- partial "footer.html" . -}}
+            {{ end}}
         </div>
-        {{- partial "footer.html" . -}}
+
+       
+        {{- partial "footer-script.html" . -}}
     </body>
 </html>

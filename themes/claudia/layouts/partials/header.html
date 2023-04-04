@@ -1,0 +1,26 @@
+<header  >
+    <nav  id="top-nav"   class=" fixed z-10 w-full py-4 sm:py-6 text-portfolio-text-light-gray bg-portfolio-bg-lighter-gray">
+      <div   id="menu" class="container flex flex-wrap items-center">
+        <!-- Social icons-->
+        <div class="flex gap-4">
+        </div>
+        <!-- Links-->
+        <ul class=" hidden sm:flex flex-1 justify-end items-center gap-6 lowercase">
+          {{-  partial "components/menu.html" . -}}
+        </ul>
+        <!-- Hamburger menu on mobile-->
+        <div class="flex sm:hidden flex-1 justify-end">
+          <button id="toggle" class="button_container">
+            <i class="fa-solid fa-bars"></i>           
+          </button>
+        </div>
+      </div>
+      <div class="overlay" id="overlay">
+        <nav class="overlay-menu">
+            <ul>
+              {{-  partial "components/menu.html" . -}}
+            </ul>
+        </nav>
+      </div>
+    </nav>
+  </header>

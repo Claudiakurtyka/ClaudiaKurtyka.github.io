@@ -1,18 +1,47 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
-
-name = "Claudia"
+name = "Claudia-theme"
 license = "MIT"
 licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
-description = ""
+description = "A fast, clean, responsive Hugo theme"
 homepage = "http://example.com/"
-tags = []
-features = []
+
+tags = [
+  "responsive",
+  "simple",
+  "clean",
+  "light",
+  "dark",
+  "blog",
+  "minimalist",
+  "highlight.js",
+  "search"
+]
+
+features = [
+  "responsive",
+  "single-column",
+  "blog",
+  "cover-image",
+  "table-of-contents",
+  "opengraph",
+  "highlight.js",
+  "favicon",
+  "archive",
+  "share-icons",
+  "cover",
+  "multilingual",
+  "social-icons",
+  "minified-assets",
+  "theme-toggle",
+  "menu-location-indicator",
+  "scroll-to-top",
+  "search"
+]
 min_version = "0.41.0"
 
 [author]
-  name = ""
-  homepage = ""
+  name = "Claudia"
+  homepage = "https://claudiakurtyka.github.io/"
+
 
 # If porting an existing theme
 [original]

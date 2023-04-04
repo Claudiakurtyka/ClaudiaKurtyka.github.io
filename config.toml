@@ -1,3 +1,101 @@
-baseURL = 'http://example.org/'
+baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+theme = 'claudia'
+copyright = 'copyright'
+
+
+
+# If false, English tags like `Getting Started` will be converted to `getting-started
+preserveTaxonomyNames = true
+# Automatically detects if Chinese/Japanese/Korean is included, this parameter affects the summary and word count functions and is recommended to be set to true
+hasCJKLanguage = false
+enableGitInfo = true
+
+# Pagination
+paginate = 10
+paginatePath = "page"
+
+# enable Emoji; see emoji-cheat-sheet.com
+enableEmoji = false
+
+
+[permalinks]
+  post = "/:year/:month/:title/"
+
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
+  expiryDate = ["expiryDate"]
+
+
+[params]
+	keywords = "blog,life,code,desgin"
+  author = "tothemoon"
+  homepage = "homepage"
+  email = "myeamil"
+  avatar = "https://i.328888.xyz/2023/03/19/Pf8MH.png"
+  description = "description here"
+  aboutImage = "https://photo.tuchong.com/7194943/f/1141846321.jpg"
+  [[params.social]]
+      url   = "https://twitter.com/"
+      icon  = "fa-brands fa-twitter fa-lg"
+  [[params.social]]
+      url   = "https://facebook.com/"
+      icon  = "fa-brands fa-facebook fa-lg" 
+  [[params.social]]
+      url   = "https://linkedin.com/"
+      icon  = "fa-brands fa-linkedin fa-lg"
+  [[params.social]]
+      url = "https://linkedin.com/"  
+      icon = "fa-brands fa-instagram fa-lg" 
+  [params.busuanzi_count]
+    enable = true
+    site_uv = true
+    site_pv = true
+    page_pv = true
+
+
+
+# allow md file shows HTML format
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe= true
+      hardWraps = false
+      xhtml = false
+
+# setup menu
+sectionPagesMenu = "main"
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pre = '<i class="fa-solid fa-house"></i>'
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "My Blog"
+    pre = '<i class="fa-solid fa-paper-plane"></i>'
+    url = "/posts/"
+    identifier = "posts"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    pre = '<i class="fa-solid fa-tag"></i>'
+    identifier = "tags"
+    url = "/tags/"
+    weight = 3
+  [[menu.main]]
+    name = "Abouts"
+    pre = '<i class="fa-sharp fa-solid fa-medal"></i>'
+    identifier = "about"
+    url = "/about/"
+    weight = 4
+
+
+# code block buil-in tool
+pygmentsUseClasses=true
+pygmentsCodeFences=true
+
