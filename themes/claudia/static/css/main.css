@@ -199,11 +199,7 @@ figcaption {
 .page-content a {
 	color: var(--copyright-info-color);
 }
-header{
-	position: sticky;
-	top: 0;
-	z-index: 2;
-  }
+
   
   .nav::after{
 	position: absolute;
