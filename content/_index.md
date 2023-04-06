@@ -9,6 +9,6 @@ layout: "index"
 
 
 
-# Hello, I'm tothemoon
-## I'm a backend developer
-This is index
+# Hello, I'm claudia
+## I'm a UI/UX desginer
+This is my project

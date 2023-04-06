@@ -1,11 +1,18 @@
 <header  >
     <nav  id="top-nav"   class=" fixed z-10 w-full py-4 sm:py-6 text-portfolio-text-light-gray bg-portfolio-bg-lighter-gray">
-      <div   id="menu" class="container flex flex-wrap items-center">
-        <!-- Social icons-->
-        <div class="flex gap-4">
+        <h2 class="mb-6  mt-10 text-portfolio-text-light-gray  sm:text-6xl text-center uppercase letter-spacing-10">
+            {{ $.Site.Params.author }}
+        </h2>
+        <div class="text-portfolio-text-light-gray  sm:text-xl text-center mb-2">
+            <p>I'm <span class="typed" style="color: #00cab5;" data-typed-items="{{ with $.Site.Params.typed_names }}{{ . }}{{ end }}"></span></p>
         </div>
+
+
+        <div   id="menu" class="container flex flex-wrap items-center">
+        <!-- Social icons-->
+       
         <!-- Links-->
-        <ul class=" hidden sm:flex flex-1 justify-end items-center gap-6 lowercase">
+        <ul class=" hidden sm:flex flex-1 justify-center items-center gap-6 lowercase">
           {{-  partial "components/menu.html" . -}}
         </ul>
         <!-- Hamburger menu on mobile-->

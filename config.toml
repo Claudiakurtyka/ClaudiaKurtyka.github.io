@@ -32,8 +32,9 @@ enableEmoji = false
 
 
 [params]
-	keywords = "blog,life,code,desgin"
-  author = "tothemoon"
+    keywords = "blog,life,code,desgin"
+  author = "claudia kurtyka"
+  typed_names="UI/UX desginer"
   homepage = "homepage"
   email = "myeamil"
   avatar = "https://i.328888.xyz/2023/03/19/Pf8MH.png"
@@ -71,29 +72,20 @@ enableEmoji = false
 sectionPagesMenu = "main"
 [menu]
   [[menu.main]]
-    name = "Home"
-    pre = '<i class="fa-solid fa-house"></i>'
+    name = "Work"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "My Blog"
-    pre = '<i class="fa-solid fa-paper-plane"></i>'
-    url = "/posts/"
-    identifier = "posts"
-    weight = 2
-  [[menu.main]]
-    name = "Tags"
-    pre = '<i class="fa-solid fa-tag"></i>'
-    identifier = "tags"
-    url = "/tags/"
-    weight = 3
-  [[menu.main]]
     name = "Abouts"
-    pre = '<i class="fa-sharp fa-solid fa-medal"></i>'
     identifier = "about"
     url = "/about/"
-    weight = 4
+    weight = 2
 
+  [[menu.main]]
+    name = "Contact"
+    identifier = "contact"
+    url = "/#contact"
+    weight = 3
 
 # code block buil-in tool
 pygmentsUseClasses=true

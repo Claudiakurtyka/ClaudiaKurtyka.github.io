@@ -9,11 +9,8 @@
 {{ $section1 := first 6 $segments1  }}
 {{ $section2 := first 6 $segments2  }}
 
-<!-- {{ printf "segments1 = %s "   $section1  }}
-{{ printf "segments2 = %s " $section2 }} -->
-
 <a href="{{ $menu_item_url }}" title="{{ .Name }}">
-    <li class="hover  {{if eq  $section2 $section1  }}  active {{end}}">
+    <li class="hover__white  {{if eq  $section2 $section1  }}  active {{end}}">
       {{ .Pre }}
       {{ .Name }}
     </li>
