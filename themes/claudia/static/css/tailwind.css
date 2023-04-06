@@ -616,6 +616,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .justify-between{
   justify-content: space-between;
 }
+.justify-even{
+  justify-content: space-evenly
+}
 
 .gap-4{
   gap: 1rem;
@@ -1382,5 +1385,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .line-1{
   height: 0.4em;
   width: 100%;
+  background-color: #fe8930;
+}
+.tag-bar{
+  border-radius: 1em;
+  padding: 0.4em 1em;
+  color: #fffefe;
   background-color: #fe8930;
 }
