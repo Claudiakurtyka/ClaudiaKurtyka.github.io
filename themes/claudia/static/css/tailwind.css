@@ -1012,7 +1012,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .overlay {
-  background: #111111;
+  background: #fff;
   height: 0%;
   left: 0;
   opacity: 0;
