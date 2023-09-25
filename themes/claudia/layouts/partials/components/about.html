@@ -1,3 +1,14 @@
-<section class="container flex">
 
+{{ block "main" . }}
+<section class="h-screen container ">
+    <h1 class="text-2xl">About</h1>
+    <div class="flex flex-wrap gap-12 ">
+        <div >
+            <img width="300" src="{{ .Params.avatar }}" alt="Avatar">
+        </div>
+        <div class="flex-1" id="About">
+           {{.Content}}      
+        </div>
+    </div>
 </section>
+{{ end }}

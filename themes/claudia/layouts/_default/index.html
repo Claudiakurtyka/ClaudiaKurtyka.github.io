@@ -1,7 +1,7 @@
 {{ define "main" }}
-<section>
-    <div class="container flex flex-wrap gap-12 justify-center items-center h-screen">
-      <!-- Display title-->
+<section  class="container" >
+    <div class=" flex flex-wrap gap-12 justify-center items-center">
+      <!-- Disply title-->
       <div class="card max-w-xs">
         <img width="300" src="https://i.imgur.com/aic6GS8.png"/>
         <div class="p-2 ">
@@ -28,14 +28,10 @@
         </div>
       </div>
     </div>
-  </section>
+</section>
 
 
   
-  <section id="mywork" class="mt-10">
-    <div class="container">
-      {{ .Content }}
-      {{-  partial "components/project.html" . -}}
-    </div>
-  </section>
+
+
 {{ end }}

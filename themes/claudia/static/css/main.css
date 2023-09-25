@@ -826,3 +826,13 @@ figcaption {
 	overflow-wrap: break-word;
 	max-height: 25rem;
   }
+
+  #About p{
+	color: rgba(0, 0, 0, 0.70);
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: -0.52px;
+	margin: 1rem 0 ;
+  }

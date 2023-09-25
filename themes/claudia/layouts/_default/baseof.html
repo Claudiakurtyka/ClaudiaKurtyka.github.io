@@ -9,9 +9,10 @@
             {{- block "fullpage" .}}{{- end}}
             {{ else}}
             {{- partial "header.html" . -}}
-                <main class="min-h-full">
+                <div >
                     {{- block "main" .}}{{- end}}
-                </main>
+                </div>
+                {{-  partial "components/about.html" . -}}
                 {{- partial "footer.html" . -}}
             {{ end}}
         </div>
