@@ -702,6 +702,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-center{
   background-position: center;
 }
+.p-2{
+  padding: 1rem;
+}
 
 .p-6{
   padding: 1.5rem;
@@ -1136,11 +1139,25 @@ Ensure the default browser behavior of the `hidden` attribute.
 #menu ul li{
   list-style: none;
   margin: 0;
+  font-size: 1rem;
+
   padding: 0;
+  border-radius: 40px;
+  background: rgba(219, 219, 219, 0.65);
+  display: flex;
+  padding: 10px 21.27px 10px 20px;
+  justify-content: center;
+  align-items: center;
 }
 #menu .active {
-  color: rgb(119 87 0 );
-  font-size: 1.15rem;
+  color: #fff;
+  font-size: 1.1rem;
+  display: flex;
+padding: 10px 19.5px 10px 20px;
+justify-content: center;
+align-items: center;
+  border-radius: 40px;
+  background: rgba(99, 99, 99, 0.85);
 }
 .overlay ul li a:hover:after,
 .overlay ul li a:focus:after,

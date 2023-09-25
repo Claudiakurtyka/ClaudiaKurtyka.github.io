@@ -4,20 +4,13 @@
     <div class="container flex flex-col gap-12 justify-center items-center h-screen">
       <!-- Display title-->
       <div class="flex flex-col justify-center items-center gap-2 sm:gap-7">
-        <h1 class="text-portfolio-bg-lighter-gray displaytitle font-bold text-6xl leading-tight md:text-8xl lg:leading-none lg:text-9xl text-center">
-          {{ $.Site.Params.homepage }}
-        </h1>
-        <h2 class="text-portfolio-text-light-gray max-w-lg sm:text-xl text-center">
-            {{ $.Site.Params.author }}
-        </h2>
-        <p>I'm <span class="typed" style="color: #00cab5;" data-typed-items="{{ with .Params.typed_names }}{{ . }}{{ end }}"></span></p>
+
+        <div>
+          <img src="https://i.imgur.com/aic6GS8.png"/>
+        </div>
+
       </div>
-      <!-- Button-->
-        <a href="#mywork">
-            <button type="button" class="btn">
-            See my work <i class="fa-solid fa-arrow-right"></i>
-            </button>
-        </a>
+      
     </div>
   </section>
   <section id="mywork" class="mt-10">
