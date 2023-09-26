@@ -836,3 +836,29 @@ figcaption {
 	letter-spacing: -0.52px;
 	margin: 1rem 0 ;
   }
+
+#capabilities .cap-card{
+	padding: 1rem 1.2rem;
+	margin: 0.3rem 0.5rem;
+	width: auto;
+	border-radius: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+	justify-content: center;
+	align-items: center;
+	border-radius: 100px;
+	color: rgba(0, 0, 0, 0.70);
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height:14px; /* 140% */
+}
+
+#contact .contact-card{
+	display: flex;
+	width: 740px;
+	padding: 40px;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 40px;
+	background: rgba(0, 0, 0, 0.03);
+}
