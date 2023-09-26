@@ -468,7 +468,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .fixed{
   top:0;
-  position: fixed;
 }
 
 .z-10{
@@ -673,13 +672,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-portfolio-bg-lighter-gray{
-  --tw-bg-opacity: 1;
-  background-color: white;
+  background-color: #fdfffc;
 }
 
 .bg-portfolio-bg-darker-gray{
-  --tw-bg-opacity: 1;
-  background-color: rgb(5 5 5 / var(--tw-bg-opacity));
+  color: #edf2f4;
+  background-color: #181818;
 }
 
 .bg-transparent{
@@ -814,7 +812,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 
-
+.text-portfolio-text-light-gray{
+  --tw-text-opacity: 1;
+  color: rgb(43 45 66 / var(--tw-text-opacity));
+}
 .text-bakery-subheading{
   --tw-text-opacity: 1;
   color: rgb(171 172 176 / var(--tw-text-opacity));
