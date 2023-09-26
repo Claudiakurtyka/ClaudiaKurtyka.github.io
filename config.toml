@@ -32,7 +32,7 @@ enableEmoji = false
 
 
 [params]
-    keywords = "blog,life,code,desgin"
+  keywords = "blog,life,code,desgin"
   author = "claudia kurtyka"
   typed_names="UI/UX desginer"
   homepage = "homepage"
@@ -41,17 +41,18 @@ enableEmoji = false
   description = "description here"
   aboutImage = "https://photo.tuchong.com/7194943/f/1141846321.jpg"
   [[params.social]]
-      url   = "https://twitter.com/"
-      icon  = "fa-brands fa-twitter fa-lg"
-  [[params.social]]
-      url   = "https://facebook.com/"
-      icon  = "fa-brands fa-facebook fa-lg" 
-  [[params.social]]
       url   = "https://linkedin.com/"
       icon  = "fa-brands fa-linkedin fa-lg"
+      name = "linkedin"
+ [[params.social]]
+      url   = "https://facebook.com/"
+      icon  = "fa-brands fa-facebook fa-lg" 
+      name = "facebook"
+
   [[params.social]]
       url = "https://linkedin.com/"  
       icon = "fa-brands fa-instagram fa-lg" 
+      name = "instagram"
   [params.busuanzi_count]
     enable = true
     site_uv = true
@@ -73,12 +74,12 @@ sectionPagesMenu = "main"
 [menu]
   [[menu.main]]
     name = "Work"
-    url = "/"
+    url = "/#project"
     weight = 1
   [[menu.main]]
     name = "Abouts"
     identifier = "about"
-    url = "/about/"
+    url = "/#about"
     weight = 2
 
   [[menu.main]]
