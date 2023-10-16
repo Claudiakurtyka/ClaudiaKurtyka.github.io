@@ -2,7 +2,6 @@ baseURL = 'http://localhost:1313/'
 languageCode = 'en-us'
 title = "Claudia's website"
 theme = 'claudia'
-copyright = 'copyright'
 
 
 
@@ -36,7 +35,8 @@ enableEmoji = false
   author = "claudia kurtyka"
   typed_names="UI/UX desginer"
   homepage = "homepage"
-  email = "myeamil"
+  copyright = "© Copyright 2023"
+  email = "claudiakurtyka-design@gmail.com"
   avatar = "https://i.328888.xyz/2023/03/19/Pf8MH.png"
   description = "description here"
   aboutImage = "https://photo.tuchong.com/7194943/f/1141846321.jpg"
@@ -53,6 +53,19 @@ enableEmoji = false
       url = "https://linkedin.com/"  
       icon = "fa-brands fa-instagram fa-lg" 
       name = "instagram"
+  [[params.capability]]  
+      name = "Figma"
+  [[params.capability]]  
+      name = "Information Architecture"
+  [[params.capability]]  
+      name = "Wireframing"
+  [[params.capability]]  
+      name = "Prototyping"
+  [[params.capability]]  
+      name = "Fractional Leadership"
+  [[params.capability]]  
+      name = "creativity"
+
   [params.busuanzi_count]
     enable = true
     site_uv = true

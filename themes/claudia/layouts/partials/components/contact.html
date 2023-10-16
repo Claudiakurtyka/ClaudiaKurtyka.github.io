@@ -3,7 +3,9 @@
     <div class="flex flex-wrap gap-12 ">
         <div class="contact-card">
             <div class="py-4" >Want to get in touch?</div>
-            <div class="text-sm py-4">Shoot me an email at claudiakurtyka-design@gmail.com</div>
+            <div class="text-sm py-4">Shoot me an email at 
+                <a href="mailto:{{ $.Site.Params.email}}">{{ $.Site.Params.email}}</a>
+            </div>
         </div>
         <div class=" flex-1">
             <div class="py-4" >Elsewhere</div>
