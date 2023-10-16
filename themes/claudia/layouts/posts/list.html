@@ -1,0 +1,26 @@
+{{- define "main" }}
+<section class="s:mt-10">
+    <div class="container sm:my-14">
+      <div class="flex flex-col sm:flex-row ">  
+        <div class="w-full sm:w-10 sm:mt-10">
+
+            {{ range (.Paginate (.Pages.GroupByDate "2006-01")).PageGroups }}
+            <div class="result" role="group">
+                <!-- add day manually to parse as date-->
+                {{ $month := printf "%s%s" .Key "-01"}}
+                <h2 class="result__title">{{ $month | time.Format "January 2006" }}</h2>
+                {{ range .Pages }}
+
+                {{ partial "archiveItem.html" (dict "context" .) }}
+
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+      </div>
+    </div>
+
+    {{ partial "components/pagination.html" . }}
+
+  </section>
+{{- end }}

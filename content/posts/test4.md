@@ -9,6 +9,6 @@ type: posts
 author: claudia kurtyka
 tags: ["tag1", "tag2"]
 categories: ["cate1","cate2"]
-cover: ""
+cover: "https://i.imgur.com/aic6GS8.png"
 ---
 

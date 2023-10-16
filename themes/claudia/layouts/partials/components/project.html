@@ -4,14 +4,17 @@
   <div class=" flex flex-wrap gap-12 justify-center items-center">
 
 {{ range first 3 ( where .Site.RegularPages "Type" "posts" ) }}
-    <div class="card max-w-xs">
-      <img width="300" src="{{.Params.cover}}"/>
-      <div class="p-2 ">
-        <h4 class="font-bold text-xl 
-        leading-tight lg:leading-none "> {{.Params.Title}}</h4>
-        <p class=" text-sm " >{{ .Params.Description }} </p>
+    <a href="{{.Permalink}}">
+      <div class="card max-w-xs">
+        <img width="300" src="{{.Params.cover}}"/>
+        <div class="p-2 ">
+          <h4 class="font-bold text-xl 
+          leading-tight lg:leading-none "> {{.Params.Title}}</h4>
+          <p class=" text-sm " >{{ .Params.Description }} </p>
+        </div>
       </div>
-    </div>
+    </a>
+
 {{ end }}
 
   </div>
