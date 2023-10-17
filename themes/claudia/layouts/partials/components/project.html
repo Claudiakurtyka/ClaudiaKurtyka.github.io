@@ -1,6 +1,6 @@
 
 
-<section  class="container py-14 my-14" id="project" >
+<section  class="container py-14 mt-20 my-14   " id="project" >
   <div class=" flex flex-wrap gap-12 justify-center items-center">
 
 {{ range first 3 ( where .Site.RegularPages "Type" "posts" ) }}
@@ -21,7 +21,7 @@
   {{ $postCount :=len (where .Site.RegularPages "Type" "posts") }}
   {{ if gt $postCount 3 }}
     <div class="flex justify-end mt-10">
-      view all
+      <a href="/posts">view all</a>
     </div>
   {{ end }}
 

@@ -1,6 +1,6 @@
 {{ $cover := site.Params.Cover}}
 {{ if .context.Params.cover }}
-    {{ $cover = .context.Params.cover.image }}
+    {{ $cover = .context.Params.cover }}
 {{ end }}
 
 <a href="{{ .context.Permalink }}" class="result__item row-anchor" aria-label="{{ .context.Title }}">

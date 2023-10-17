@@ -1,0 +1,24 @@
+{{ $pag := .Paginator }}
+<nav class="pagination-ctrl" aria-label="myproject">
+  <div class="pagination-ctrl__content">
+    {{ if $pag.HasPrev }}
+    <a role="button" href="{{ $pag.Prev.URL }}" class="pagination-ctrl__btn   pagination-ctrl__btn--previous" aria-disabled="false" aria-label="prev" tabindex="0">
+    {{ else }}
+    <a role="button" href="#" class="pagination-ctrl__btn pagination-ctrl__btn--previous pagination-ctrl__btn--disabled" aria-disabled="true" aria-label="prev" tabindex="0">
+    {{ end }}
+    <i class="fa-solid fa-chevron-left fa-2xs"></i>
+    </a>
+    <div class="pagination-ctrl__info">
+      <span class="pagination-ctrl__info__text pagination-ctrl__info--current">{{ $pag.PageNumber }}</span>
+      <span class="pagination-ctrl__info__text"> page </span>
+      <span class="pagination-ctrl__info__text pagination-ctrl__info--total">{{ $pag.TotalPages}}</span>
+    </div>
+    {{ if $pag.HasNext}}
+    <a role="button" href="{{ $pag.Next.URL }}" class="pagination-ctrl__btn pagination-ctrl__btn--next" aria-label="next" aria-disabled="false">
+    {{ else }}
+    <a role="button" href="#" class="pagination-ctrl__btn  pagination-ctrl__btn--next  pagination-ctrl__btn--disabled" aria-label="next" aria-disabled="true">
+    {{ end }}
+    <i class="fa-solid fa-chevron-right fa-2xs" ></i>
+      </a>
+  </div>
+</nav>
