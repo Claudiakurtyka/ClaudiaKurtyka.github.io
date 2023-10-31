@@ -2,44 +2,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Claudia&#39;s website</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://claudiakurtyka.github.io/posts/</link>
     <description>Recent content in Posts on Claudia&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Oct 2023 17:23:36 +0100</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Oct 2023 17:23:36 +0100</lastBuildDate><atom:link href="https://claudiakurtyka.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test4</title>
-      <link>http://localhost:1313/posts/test4/</link>
+      <link>https://claudiakurtyka.github.io/posts/test4/</link>
       <pubDate>Mon, 16 Oct 2023 17:23:36 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/test4/</guid>
+      <guid>https://claudiakurtyka.github.io/posts/test4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Test3</title>
-      <link>http://localhost:1313/posts/test3/</link>
+      <link>https://claudiakurtyka.github.io/posts/test3/</link>
       <pubDate>Mon, 16 Oct 2023 17:18:04 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/test3/</guid>
+      <guid>https://claudiakurtyka.github.io/posts/test3/</guid>
       <description>test43jdsdffvknvdf</description>
     </item>
     
     <item>
       <title>Test2</title>
-      <link>http://localhost:1313/posts/test2/</link>
+      <link>https://claudiakurtyka.github.io/posts/test2/</link>
       <pubDate>Mon, 16 Oct 2023 17:18:00 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/test2/</guid>
+      <guid>https://claudiakurtyka.github.io/posts/test2/</guid>
       <description>test22</description>
     </item>
     
     <item>
       <title>Test1</title>
-      <link>http://localhost:1313/posts/test1/</link>
+      <link>https://claudiakurtyka.github.io/posts/test1/</link>
       <pubDate>Mon, 16 Oct 2023 17:17:26 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/test1/</guid>
+      <guid>https://claudiakurtyka.github.io/posts/test1/</guid>
       <description>test111</description>
     </item>
     

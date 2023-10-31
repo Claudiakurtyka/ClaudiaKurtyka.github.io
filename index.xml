@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on Claudia&#39;s website</title>
-    <link>http://localhost:1313/</link>
+    <link>https://claudiakurtyka.github.io/</link>
     <description>Recent content in Home on Claudia&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Mar 2023 22:54:08 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Mar 2023 22:54:08 +0000</lastBuildDate><atom:link href="https://claudiakurtyka.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test4</title>
-      <link>http://localhost:1313/posts/test4/</link>
+      <link>https://claudiakurtyka.github.io/posts/test4/</link>
       <pubDate>Mon, 16 Oct 2023 17:23:36 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/test4/</guid>
+      <guid>https://claudiakurtyka.github.io/posts/test4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Test3</title>
-      <link>http://localhost:1313/posts/test3/</link>
+      <link>https://claudiakurtyka.github.io/posts/test3/</link>
       <pubDate>Mon, 16 Oct 2023 17:18:04 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/test3/</guid>
+      <guid>https://claudiakurtyka.github.io/posts/test3/</guid>
       <description>test43jdsdffvknvdf</description>
     </item>
     
     <item>
       <title>Test2</title>
-      <link>http://localhost:1313/posts/test2/</link>
+      <link>https://claudiakurtyka.github.io/posts/test2/</link>
       <pubDate>Mon, 16 Oct 2023 17:18:00 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/test2/</guid>
+      <guid>https://claudiakurtyka.github.io/posts/test2/</guid>
       <description>test22</description>
     </item>
     
     <item>
       <title>Test1</title>
-      <link>http://localhost:1313/posts/test1/</link>
+      <link>https://claudiakurtyka.github.io/posts/test1/</link>
       <pubDate>Mon, 16 Oct 2023 17:17:26 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/test1/</guid>
+      <guid>https://claudiakurtyka.github.io/posts/test1/</guid>
       <description>test111</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://claudiakurtyka.github.io/about/</link>
       <pubDate>Tue, 07 Mar 2023 22:54:08 +0000</pubDate>
       
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://claudiakurtyka.github.io/about/</guid>
       <description>I am a UI/UX Designer with background in Architectural Technology and Interior Architecture.
 I am a UI/UX Designer with background in Architectural Technology and Interior Architecture.
 I am a UI/UX Designer with background in Architectural Technology and Interior Architecture.</description>

@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Claudia&#39;s website</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://claudiakurtyka.github.io/categories/</link>
     <description>Recent content in Categories on Claudia&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Oct 2023 17:23:36 +0100</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Oct 2023 17:23:36 +0100</lastBuildDate><atom:link href="https://claudiakurtyka.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cate1</title>
-      <link>http://localhost:1313/categories/cate1/</link>
+      <link>https://claudiakurtyka.github.io/categories/cate1/</link>
       <pubDate>Mon, 16 Oct 2023 17:23:36 +0100</pubDate>
       
-      <guid>http://localhost:1313/categories/cate1/</guid>
+      <guid>https://claudiakurtyka.github.io/categories/cate1/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cate2</title>
-      <link>http://localhost:1313/categories/cate2/</link>
+      <link>https://claudiakurtyka.github.io/categories/cate2/</link>
       <pubDate>Mon, 16 Oct 2023 17:23:36 +0100</pubDate>
       
-      <guid>http://localhost:1313/categories/cate2/</guid>
+      <guid>https://claudiakurtyka.github.io/categories/cate2/</guid>
       <description></description>
     </item>
     
