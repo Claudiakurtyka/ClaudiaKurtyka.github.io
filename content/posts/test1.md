@@ -1,15 +1,15 @@
 ---
-title: "Test1"
+title: "Tutorial: How to use it?"
 date: 2023-10-16T17:17:26+01:00
 subTitle: "subTitle"
-description: "this is description"
+description: "This section includes three parts: 1) the structure of the project 2) Basic Cli 3) How to update my project/profile"
 draft: false
 featured: true
 type: posts
 author: claudia kurtyka
-tags: ["tag1", "tag2"]
-categories: ["cate1","cate2"]
-cover: "https://i.imgur.com/aic6GS8.png"
+tags: [""]
+categories: ["Tutorial"]
+cover: "https://i.imgur.com/ImkLpCT.png"
 ---
 
 test111
