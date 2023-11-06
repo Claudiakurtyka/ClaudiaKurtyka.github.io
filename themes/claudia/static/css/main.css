@@ -835,6 +835,7 @@ figcaption {
 	overflow: hidden;
 	text-overflow: ellipsis;
   }
+
   .card .card-img{
 	height: 10em;
 	width: 100%;
