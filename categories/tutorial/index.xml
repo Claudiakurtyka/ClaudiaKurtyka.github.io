@@ -1,30 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Claudia&#39;s website</title>
-    <link>https://claudiakurtyka.github.io/posts/</link>
-    <description>Recent content in Posts on Claudia&#39;s website</description>
+    <title>Tutorial on Claudia&#39;s website</title>
+    <link>https://claudiakurtyka.github.io/categories/tutorial/</link>
+    <description>Recent content in Tutorial on Claudia&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Oct 2023 17:18:04 +0100</lastBuildDate><atom:link href="https://claudiakurtyka.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test3</title>
-      <link>https://claudiakurtyka.github.io/posts/test3/</link>
-      <pubDate>Mon, 16 Oct 2023 17:18:04 +0100</pubDate>
-      
-      <guid>https://claudiakurtyka.github.io/posts/test3/</guid>
-      <description>test43jdsdffvknvdf</description>
-    </item>
-    
-    <item>
-      <title>Test2</title>
-      <link>https://claudiakurtyka.github.io/posts/test2/</link>
-      <pubDate>Mon, 16 Oct 2023 17:18:00 +0100</pubDate>
-      
-      <guid>https://claudiakurtyka.github.io/posts/test2/</guid>
-      <description>test22</description>
-    </item>
-    
+    <lastBuildDate>Mon, 16 Oct 2023 17:17:26 +0100</lastBuildDate><atom:link href="https://claudiakurtyka.github.io/categories/tutorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tutorial: How to use it?</title>
       <link>https://claudiakurtyka.github.io/posts/test1/</link>

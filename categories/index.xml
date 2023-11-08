@@ -6,11 +6,11 @@
     <description>Recent content in Categories on Claudia&#39;s website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Oct 2023 17:23:36 +0100</lastBuildDate><atom:link href="https://claudiakurtyka.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Oct 2023 17:18:04 +0100</lastBuildDate><atom:link href="https://claudiakurtyka.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cate1</title>
       <link>https://claudiakurtyka.github.io/categories/cate1/</link>
-      <pubDate>Mon, 16 Oct 2023 17:23:36 +0100</pubDate>
+      <pubDate>Mon, 16 Oct 2023 17:18:04 +0100</pubDate>
       
       <guid>https://claudiakurtyka.github.io/categories/cate1/</guid>
       <description></description>
@@ -19,9 +19,18 @@
     <item>
       <title>cate2</title>
       <link>https://claudiakurtyka.github.io/categories/cate2/</link>
-      <pubDate>Mon, 16 Oct 2023 17:23:36 +0100</pubDate>
+      <pubDate>Mon, 16 Oct 2023 17:18:04 +0100</pubDate>
       
       <guid>https://claudiakurtyka.github.io/categories/cate2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://claudiakurtyka.github.io/categories/tutorial/</link>
+      <pubDate>Mon, 16 Oct 2023 17:17:26 +0100</pubDate>
+      
+      <guid>https://claudiakurtyka.github.io/categories/tutorial/</guid>
       <description></description>
     </item>
     

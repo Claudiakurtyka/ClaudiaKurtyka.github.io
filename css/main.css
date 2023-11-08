@@ -178,7 +178,9 @@ figcaption {
 	font-size:1rem;
 	float:right
 }
-
+.page-content{
+	font-size: 16px;
+}
 
 .page-content .polaroid {
 	margin: 20px auto;
@@ -824,9 +826,36 @@ figcaption {
 	padding-bottom:0.4rem ;
     background: rgba(0, 0, 0, 0.03);
 	overflow-wrap: break-word;
-	max-height: 25rem;
+	height: 25rem;
+	transition: all 0.3s;
+  }
+  .card .card-header{
+	margin-bottom: 1.2em;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
   }
 
+  .card .card-img{
+	height: 10em;
+	width: 100%;
+	border-radius: 10px;
+  }
+  .card:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 10px rgba(183, 183, 183, 0.6);
+  }
+
+
+  .card .card-desc{
+	display: -webkit-box;
+	-webkit-line-clamp: 5;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+  }
   #About p{
 	color: rgba(0, 0, 0, 0.70);
 	font-family: Roboto;

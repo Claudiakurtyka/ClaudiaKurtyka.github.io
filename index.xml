@@ -8,15 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Mar 2023 22:54:08 +0000</lastBuildDate><atom:link href="https://claudiakurtyka.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test4</title>
-      <link>https://claudiakurtyka.github.io/posts/test4/</link>
-      <pubDate>Mon, 16 Oct 2023 17:23:36 +0100</pubDate>
-      
-      <guid>https://claudiakurtyka.github.io/posts/test4/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Test3</title>
       <link>https://claudiakurtyka.github.io/posts/test3/</link>
       <pubDate>Mon, 16 Oct 2023 17:18:04 +0100</pubDate>
@@ -35,12 +26,13 @@
     </item>
     
     <item>
-      <title>Test1</title>
+      <title>Tutorial: How to use it?</title>
       <link>https://claudiakurtyka.github.io/posts/test1/</link>
       <pubDate>Mon, 16 Oct 2023 17:17:26 +0100</pubDate>
       
       <guid>https://claudiakurtyka.github.io/posts/test1/</guid>
-      <description>test111</description>
+      <description>This is the instruction of the template Hugo Introduction Basic Description Hugo is a popular open-source static site generator that allows you to create fast and efficient websites without relying on a database or server-side scripting. The structure of a Hugo site includes the following elements:
+Content folder: This folder contains all the content of your website, including pages, blog posts, images, and other media. The content is typically written in Markdown, which is a lightweight markup language.</description>
     </item>
     
     <item>

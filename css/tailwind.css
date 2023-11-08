@@ -1096,24 +1096,7 @@ body .mt-20{
   text-decoration: none;
   overflow: hidden;
 }
-#about{
-  margin-top: 5em;
-}
-#about ul li{
-	list-style: none;
-	margin: 0;
-	padding: 0;
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-#about h1,h2,h3,h4,h5,p {
-  margin: 2px 0;
-}
-#about h5{
-  padding: 3px;
-  background: var(--third-text-color);
-}
+
 
 .mr-10{
   margin-right: 1em;
@@ -1381,9 +1364,9 @@ align-items: center;
   .lg\:block{
     display: block;
   }
-  .page-content{
+  /* .page-content{
     width: 80%;
-  }
+  } */
   .lg\:text-9xl{
     font-size: 8rem;
     line-height: 1;
