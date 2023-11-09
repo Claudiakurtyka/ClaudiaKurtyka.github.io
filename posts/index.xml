@@ -27,10 +27,10 @@
     
     <item>
       <title>Tutorial: How to use it?</title>
-      <link>https://claudiakurtyka.github.io/posts/test1/</link>
+      <link>https://claudiakurtyka.github.io/posts/tutorial-how-to-use-it/</link>
       <pubDate>Mon, 16 Oct 2023 17:17:26 +0100</pubDate>
       
-      <guid>https://claudiakurtyka.github.io/posts/test1/</guid>
+      <guid>https://claudiakurtyka.github.io/posts/tutorial-how-to-use-it/</guid>
       <description>This is the instruction of the template Hugo Introduction Basic Description Hugo is a popular open-source static site generator that allows you to create fast and efficient websites without relying on a database or server-side scripting. The structure of a Hugo site includes the following elements:
 Content folder: This folder contains all the content of your website, including pages, blog posts, images, and other media. The content is typically written in Markdown, which is a lightweight markup language.</description>
     </item>
