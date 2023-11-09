@@ -7,7 +7,7 @@
     <meta name="author" content="claudia kurtyka">
     <meta name="keywords" content="blog,life,code,desgin">
 
-    <title>Tutorial: What&#39;s hugo? | Claudia&#39;s website</title>
+    <title>Tutorial: How to setup the basic parameters | Claudia&#39;s website</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="icon" type="image/png" href="/images/favicon.png" />
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
@@ -153,37 +153,15 @@
 
           </div>
           <div class="page-content mt-10">
-            <h2 id="this-is-the-instruction-of-the-template">This is the instruction of the template</h2>
-<h3 id="hugo-introduction">Hugo Introduction</h3>
-<h4 id="basic-description">Basic Description</h4>
-<p>Hugo is a popular open-source static site generator that allows you to create fast and efficient websites without relying on a database or server-side scripting. The structure of a Hugo site includes the following elements:</p>
-<ol>
-<li>Content folder: This folder contains all the content of your website, including pages, blog posts, images, and other media. The content is typically written in Markdown, which is a lightweight markup language.</li>
-<li>Static folder: This folder contains all the static assets of your website, including CSS stylesheets, JavaScript files, images, and other media files. These assets are not generated dynamically and are instead served as-is.
-Archetypes folder: This folder contains templates for creating new content files. You can create templates for different types of content, such as blog posts or pages, to make it easy to create new content quickly.</li>
-<li>Themes folder: This folder contains all the templates, stylesheets, and other assets for your website’s theme. You can choose from a variety of pre-built themes or create your own.</li>
-<li>Config file: This file contains configuration settings for your Hugo site, such as the site title, language, and other global settings.</li>
-<li>Layouts folder: This folder contains templates for generating the HTML output of your website. You can create templates for different types of pages, such as the homepage, blog index, or individual blog posts.
-Data folder: This folder contains data files that are used to generate your website, such as site configuration settings, lists of authors or categories, or other metadata.</li>
-</ol>
-<h3 id="how-hugo-run-the-application">How hugo run the application?</h3>
-<p>We mainly focus on layouts folder. In _default folder, baseof.html is the entry port, index.html is the home</p>
-<h4 id="configtoml-file">Config.toml file</h4>
-<p>In config.toml, we can setup theme and define all the global variables, such as website url, website name, your name as the author, social media and so on.</p>
-<ol>
-<li>Introduce theme</li>
-</ol>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#a6e22e">theme</span> = <span style="color:#e6db74">&#39;claudia&#39;</span>  <span style="color:#75715e"># the name should match your theme&#39;s name in the theme folder</span></span></span></code></pre></td></tr></table>
-</div>
-</div>
-<ol start="2">
-<li>Setup menu</li>
-</ol>
+            <h1 id="tutorial-how-to-setup-the-basic-parameters">Tutorial: How to setup the basic parameters</h1>
+<blockquote>
+<blockquote>
+<p>Get to know how we config menu/social media in hugo</p>
+</blockquote>
+</blockquote>
+<h3 id="set-up-menu">Set up menu</h3>
+<p>In the [Hugo introduction] blog, I have shown how the menu is added in hugo.</p>
+<p>Head to config.toml file,</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
@@ -224,7 +202,8 @@ Data folder: This folder contains data files that are used to generate your webs
 </span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">3</span></span></span></code></pre></td></tr></table>
 </div>
 </div>
-<p>If you want you menu contains icon, you can add another param, eg.</p>
+<p>We add icon in “pre”. The icon library I use is the common fontawesome.
+In the menu.html, just using hugo syntax {{.Pre}} to display icon.</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
@@ -235,64 +214,76 @@ Data folder: This folder contains data files that are used to generate your webs
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
 </span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
-</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">9
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span><span style="color:#75715e"># setup menu</span>
-</span></span><span style="display:flex;"><span><span style="color:#a6e22e">sectionPagesMenu</span> = <span style="color:#e6db74">&#34;main&#34;</span>
-</span></span><span style="display:flex;"><span>[<span style="color:#a6e22e">menu</span>]
-</span></span><span style="display:flex;"><span>  [[<span style="color:#a6e22e">menu</span>.<span style="color:#a6e22e">main</span>]]
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">name</span> = <span style="color:#e6db74">&#34;Work&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;/#project&#34;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">weight</span> = <span style="color:#ae81ff">1</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#a6e22e">icon</span> = <span style="color:#e6db74">&#34;fa fa-works&#34;</span>
-</span></span><span style="display:flex;"><span>   ....</span></span></code></pre></td></tr></table>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span> {{ range .Site.Menus.main }}
+</span></span><span style="display:flex;"><span>    &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .URL }}&#34;</span> <span style="color:#a6e22e">title</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .Name }}&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">li</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;hover&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>            {{ .Pre }}
+</span></span><span style="display:flex;"><span>            {{ .Name }}
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">li</span>&gt;
+</span></span><span style="display:flex;"><span>    &lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>{{ end }}</span></span></code></pre></td></tr></table>
 </div>
 </div>
-<ol start="3">
-<li>Common js and css</li>
-</ol>
-<blockquote class="imgur-embed-pub" lang="en" data-id="TVbj0Cb"><a href="https://imgur.com/TVbj0Cb">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-<p>Every html page contains some same css files and js files, such as same header and footer. In Layout/partials folder, hugo helps us to generate head.html, footer.html already, but we can create another two html to wrap commom js and css(header footer).</p>
-<blockquote class="imgur-embed-pub" lang="en" data-id="8cPVqwA"><a href="https://imgur.com/8cPVqwA">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-<p>Head and footer we can use for defining common navigation(nav bar) and footer parts.</p>
-<h3 id="default-html">Default HTML</h3>
-<h4 id="entry-point--baseofhtml">Entry Point — baseof.html</h4>
-<p>In layouts/_default folder, baseof.html is the main entrance, so we import the common HTML in the baseof.html, such as header, footer and main body.</p>
-<p>This part is the dynamic content we reuse in each html, in other words, when user click different HTML page, it’ll show different content, but the header(navigation menu) and footer are the same.</p>
+<h3 id="add-your-social-media">Add your social media</h3>
+<p>You can add social media in HTML directly, also, can use config file which is easy to change every time you want to update.</p>
+<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>[<span style="color:#a6e22e">params</span>]
+</span></span><span style="display:flex;"><span> [[<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">social</span>]]
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">url</span>   = <span style="color:#e6db74">&#34;https://twitter.com/&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">icon</span>  = <span style="color:#e6db74">&#34;fa-brands fa-twitter fa-lg&#34;</span>
+</span></span><span style="display:flex;"><span>  [[<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">social</span>]]
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">url</span>   = <span style="color:#e6db74">&#34;https://facebook.com/&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">icon</span>  = <span style="color:#e6db74">&#34;fa-brands fa-facebook fa-lg&#34;</span> 
+</span></span><span style="display:flex;"><span>  [[<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">social</span>]]
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">url</span>   = <span style="color:#e6db74">&#34;https://linkedin.com/&#34;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">icon</span>  = <span style="color:#e6db74">&#34;fa-brands fa-linkedin fa-lg&#34;</span>
+</span></span><span style="display:flex;"><span>  [[<span style="color:#a6e22e">params</span>.<span style="color:#a6e22e">social</span>]]
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">url</span> = <span style="color:#e6db74">&#34;https://linkedin.com/&#34;</span>  
+</span></span><span style="display:flex;"><span>      <span style="color:#a6e22e">icon</span> = <span style="color:#e6db74">&#34;fa-brands fa-instagram fa-lg&#34;</span> </span></span></code></pre></td></tr></table>
+</div>
+</div>
+<p>How to use this config in HTML page? It clearly is a list format, so when the html page render the list, here is the sytanx:</p>
 <div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
 <table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
 <pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">8
 </span></code></pre></td>
 <td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>  {{<span style="color:#a6e22e">-</span> <span style="color:#a6e22e">block</span> <span style="color:#e6db74">&#34;main&#34;</span> .}}<span style="color:#a6e22e">xxxxxx</span>{{<span style="color:#a6e22e">-</span> <span style="color:#a6e22e">end</span>}}</span></span></code></pre></td></tr></table>
+<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>    {{ with $.Site.Params.social }}
+</span></span><span style="display:flex;"><span>        {{ range . }}
+</span></span><span style="display:flex;"><span>        &lt;<span style="color:#f92672">a</span> <span style="color:#a6e22e">href</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .url }}&#34;</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;flex py-4 text-base&#34;</span> &gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">span</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;mr-10 &#34;</span>&gt; &lt;<span style="color:#f92672">i</span> <span style="color:#a6e22e">class</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;{{ .icon}}&#34;</span>&gt;&lt;/<span style="color:#f92672">i</span>&gt;&lt;/<span style="color:#f92672">span</span>&gt;
+</span></span><span style="display:flex;"><span>            &lt;<span style="color:#f92672">div</span>&gt;{{.name}}&lt;/<span style="color:#f92672">div</span>&gt;
+</span></span><span style="display:flex;"><span>        &lt;/<span style="color:#f92672">a</span>&gt;
+</span></span><span style="display:flex;"><span>        {{ end }}
+</span></span><span style="display:flex;"><span>    {{ end }}</span></span></code></pre></td></tr></table>
 </div>
 </div>
-<h4 id="homepage--indexhtml">homepage — index.html</h4>
-<p>The home page contains index.html , _index.md(optional).
-If we want to use the parameters we define in the md file, the syntax is</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span>  {{.<span style="color:#a6e22e">Params</span>.<span style="color:#a6e22e">typed_names</span> }}</span></span></code></pre></td></tr></table>
-</div>
-</div>
-<p>If we want to use the parameters we define in the config file(Global parameters), the syntax is</p>
-<div class="highlight"><div style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
-<table style="border-spacing:0;padding:0;margin:0;border:0;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code><span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
-</span></code></pre></td>
-<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
-<pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-toml" data-lang="toml"><span style="display:flex;"><span> {{ <span style="color:#960050;background-color:#1e0010">$</span>.<span style="color:#a6e22e">Site</span>.<span style="color:#a6e22e">Params</span>.<span style="color:#a6e22e">homepage</span> }}</span></span></code></pre></td></tr></table>
-</div>
-</div>
-<h4 id="articlepost-page--singlehtml">Article/post page — single.html</h4>
-<p>In Hugo, the single.html file is a template file used to display individual content pages, such as a single blog post or a single page on your website.</p>
-<p>The single.html template can include Hugo variables and functions to display dynamic content, such as the title, date, author, and content of the page. You can also add custom CSS styles or JavaScript scripts to enhance the layout and functionality of your pages.</p>
-<p>Once you have created the single.html template in your theme’s layouts directory, Hugo will automatically use it to display individual content pages on your website. If you want to customize the layout for specific types of content, you can create additional templates with different names, such as single-blog.html or single-page.html, and specify their usage in your Hugo configuration file.</p>
-
+<blockquote class="imgur-embed-pub" lang="en" data-id="LEo5BfV"><a href="https://imgur.com/LEo5BfV">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
           </div>
           <div class="pagination">      
           </div>
